@@ -1,0 +1,380 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* 1-qadam  */
+.container{
+	width: 1100px;
+	height: 1700px;
+	border:1px solid black;
+	margin:0 auto;
+}
+.container .row{
+	width: 1000px;
+	margin:0 auto;
+}
+.header{
+	width: 1100px;
+	height: 120px;
+	background-color: #333333;
+}
+.header .hleft{
+	float: left;
+	width: 500px;
+}
+.header .hleft p{
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	color:#eeeeee;
+	line-height: 110px;
+}
+.header .hright{
+	float: left;
+	width: 500px;
+}
+.header .hright ul{
+	list-style-type: none;
+}
+.header .hright ul li{
+	margin-top:50px;
+	float: left;
+}
+.header .hright ul .link{
+	text-align: center;
+	width: 80px;
+}
+.header .hright ul .chiziq{
+	width: 20px;
+	color:#eeeeee;
+}
+.header .hright ul li a{
+	text-decoration-line: none;
+	color:#eeeeee;
+}
+.header .hright ul li .active{
+	color:#00aeef;
+}
+/* 1-qadam tugashi  */
+
+
+
+/* 2-qadam  */
+
+/* 1-ish  */
+.content .title .row{
+	border-bottom: 5px dotted #cccccc;
+}
+.content .title .title1{
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	color:#333333;
+	font-weight: bold;
+}
+.content .title .title1 span{
+	color:#00aeef;
+}
+.content .title .title2{
+	font-family: "Myriad Pro";
+	font-size: 50px;
+	color:#bbbbbb;
+	margin-bottom:30px; 
+}
+.content .title .row{
+	margin-top:50px; 
+}
+/* 1-ish tugadi  */
+
+/* 2-ish  */
+.paragraf3 .paragraf .pyozuv{
+	border-bottom: 5px dotted #cccccc;
+	padding-bottom: 35px;
+}
+.paragraf3 .paragraf .pyozuv{
+	font-family: "Myriad Pro";
+	font-size: 34pt;
+	color:#555555;
+	font-weight: regular;
+}
+.paragraf3 .paragraf .pyozuv span{
+	color:#555555;
+	font-weight: bold;
+}
+
+.paragraf3 .paragraf .pyozuv{
+	margin-top:35px; 
+	
+}
+.paragraf3{
+	width: 1000px;
+	margin:0 auto;
+}
+/* 2-ish tugadi  */
+
+/* bloklar bilan ishlash  */
+
+.block{
+	width: 1000px;
+	height: 455px;
+	margin:0 auto;
+	border-bottom: 5px dotted #cccccc;
+}
+.block .bir, .ikki, .uch{
+	margin: 20px;
+	margin-top: 50px;
+	box-shadow: 3px 3px 10px rgb(77, 74, 74);
+}
+.block .bir{
+	height: 360px;
+	width: 286px;
+	background-color: #00aeef;
+	float: left;
+}
+.block .ikki{
+	height: 360px;
+	width: 286px;
+	background-color: #00aeef;
+	float: left;
+}
+.block .uch{
+	height: 360px;
+	width: 286px;
+	background-color: #00aeef;
+	float: left;
+}
+/* 1-block  */
+.bir .bpara .web{
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 80px;
+	text-align: center;
+}
+.bir .bpara{
+	width: 230px;
+	height: 80px;
+	margin: 0 auto;
+	border-bottom: 2px dotted #ffffff;
+}
+.bir .birp2{
+	width: 230px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.bir .birp2 .p2{
+	font-family: Arial;
+	font-size: 14pt;
+	text-align: center;
+	color: #ffffff;
+	margin: 10px;
+}
+.birp3{
+	width: 230px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #0076a3;
+	box-shadow: 0 0 5px rgb(20, 20, 20) inset;
+}
+.bir .birp3 .p3{
+	font-family: Arial;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	
+}
+/* 2-block  */
+.ikki .ipara .mar{
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 80px;
+	text-align: center;
+}
+.ikki .ipara{
+	width: 230px;
+	height: 80px;
+	margin: 0 auto;
+	border-bottom: 2px dotted #ffffff;
+}
+.ikki .ikkip2{
+	width: 230px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.ikki .ikkip2 .p2{
+	font-family: "Myriad Pro";
+	font-size: 14pt;
+	text-align: center;
+	color: #ffffff;
+	margin: 10px;
+}
+.ikkip3{
+	width: 230px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #0076a3;
+	box-shadow: 0 0 5px rgb(20, 20, 20) inset;
+}
+.ikki .ikkip3 .view{
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+}
+
+/* 3-block  */
+
+.uch .uchpara .opti{
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 80px;
+	text-align: center;
+}
+.uch .uchpara{
+	width: 230px;
+	height: 80px;
+	margin: 0 auto;
+	border-bottom: 2px dotted #ffffff;
+}
+.uch .uchp2{
+	width: 230px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.uch .uchp2 .p2{
+	font-family: "Myriad Pro";
+	font-size: 14pt;
+	text-align: center;
+	color: #ffffff;
+	margin: 10px;
+}
+.uchp3{
+	width: 230px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #0076a3;
+	box-shadow: 0 0 5px rgb(20, 20, 20) inset;
+}
+.uch .uchp3 .more{
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+/* 3-qadam footer qismi  */
+
+.footer{
+	width: 1000px;
+	margin:0 auto;
+	height: 500px;
+	border-bottom: 5px dotted #cccccc;
+}
+.footer .left{
+	width: 495px;
+	height: 500px;
+	/* border: 2px solid red; */
+	float: left;
+	border-right: 5px dotted #cccccc;
+}
+.footer .right{
+	width: 495px;
+	height: 500px;
+	/* border: 2px solid red; */
+	float: left;
+}
+.right .project{
+ 	width: 490px;
+	height: 50px;
+	margin: 0 auto;
+}
+.right .project{
+	font-size: 24pt;
+	text-align: left;
+	margin-top: 25px;
+}
+.rightright{
+	width: 450px;
+	margin: 0 auto;
+}
+.online{
+	font-size: 20pt;
+	color: #a0a0a0;
+	margin-bottom: 10px;
+}
+.rightright .paragraf p{
+	font-size: 14pt;
+	color: #828282;
+}
+.mark span{
+	font-family: Arial;
+	color: #44c4f3;
+	
+}
+.mark{
+	margin-top: 20px;
+}
+/* left qismi  */
+
+.footer .left .client{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 25px;
+	color: #555555;
+	font-size: 24pt;
+}
+.leftleft{
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+}
+.footer .box{
+	width:430px;
+	height: 135px;
+}
+.box .paragraf{
+	width: 285px;
+	float: left;
+	margin-left: 50px;
+}
+.box .rang{
+	background-color: #cccccc;
+	width: 95px;
+	height: 100px;
+	float: left;
+}
+.box .about{
+	width: 300px;
+	height: 20px;
+	font-size: 14pt;
+	font-family: Arial;
+	font-weight: bold;
+	margin-top: 8px;
+}
+.box .span{
+	width: 300px;
+	height: 30px;
+	font-size: 14pt;
+	color: #44c4f3;
+	font-family: Arial;
+	margin-top: 10px;
+}
+
+
+/* ohiri  */
+
+.finish{
+	width: 1000px;
+	margin:0 auto;
+}
+.ohiri{
+	font-size: 16pt;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
